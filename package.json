@@ -15,7 +15,7 @@
     "express",
     "node",
     "javascript",
-    "server"
+    "mongoDB"
   ],
   "author": "Vitnija Bluzma",
   "dependencies": {

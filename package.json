@@ -1,0 +1,32 @@
+{
+  "name": "library-api",
+  "version": "1.0.0",
+  "description": "Library API based on Manchester Codes coursework",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "mocha tests/**/*.test.js --opts .mocha.opts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thepunkyone/library-api.git"
+  },
+  "keywords": [
+    "express",
+    "node",
+    "javascript",
+    "server"
+  ],
+  "author": "Vitnija Bluzma",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^5.6.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.0",
+    "eslint-config-mcr-codes": "^1.3.0",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.18.7"
+  }
+}

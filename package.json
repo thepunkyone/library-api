@@ -4,7 +4,7 @@
   "description": "Library API based on Manchester Codes coursework",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "nodemon -r dotenv/config index.js",
     "test": "mocha tests/**/*.test.js --opts .mocha.opts"
   },
   "repository": {
